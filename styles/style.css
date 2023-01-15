@@ -12,6 +12,7 @@ body{
 }
 p{
     color: rgb(41, 39, 39);
+    
 }
 /* common css */
 /* header starts */
@@ -21,7 +22,7 @@ header{
     
     background-color:#ff8f0e2a;
     margin-top: 0px;
-    border-bottom: 3px solid rgb(204, 201, 201);
+   
     
 }
 nav{
@@ -355,6 +356,7 @@ footer{
 }
 footer p{
     padding-top: 30px;
+
 }
 @media screen and (max-width:576px){
     footer p{
