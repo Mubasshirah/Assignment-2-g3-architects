@@ -2,6 +2,10 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+.common{
+    width: 80%;
+    padding: 20px 10%;
+}
 *{
     margin: 0;
     padding: 0;
@@ -10,11 +14,11 @@ body{
 /* header starts */
 
 header{
-    width: 80%;
+    
     
     background-color:#ff8f0e2a;
     margin-top: 0px;
-    padding: 20px 10%;
+    border-bottom: 3px solid rgb(204, 201, 201);
     
 }
 nav{
@@ -23,12 +27,7 @@ nav{
     justify-content: space-between;
 }
 
-.logo{
 
-}
-.logo h1{
-    
-}
 .nav-menu-ul{
 display: flex;
 justify-content: space-around;
@@ -163,4 +162,75 @@ font-size: 2em;
         padding-right: 0px;
     }
 }
+/* love features starts */
+img{
+    width: 100%;
+    height: 100%;
+}
+.love-features{
+display: grid;
+grid-template-columns: repeat(2 ,1fr);
+gap: 80px;
+position: relative;
+}
+.experience-btn{
+    display: inline-block;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.text-div{
+    margin-top: 20px;
+
+}
+.love-features-left-text{
+    margin-bottom: 20px;
+
+ border-radius: 5px;
+ padding: 20px;
+ box-shadow: 10px 10px 20px rgb(250, 242, 242);
+ 
+}
+.love-features-left-text p{
+   padding-top: 15px;
+}
+.love-features-left-text h4{
+   margin: 0;
+   padding: 0;
+}
+.love-features-left-h2{
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 2px solid #FF900E;
+    
+}
+.love-features-left-p{
+    padding-top: 30px;
+}
+
+.love-features-right{
+    height: 700px;
+}
+@media screen and (max-width:576px) {
+    .love-features{
+     grid-template-columns: repeat(1,1fr);
+    }
+    .love-features-right{
+        height: 400px;
+    }
+    .experience-btn{
+        
+        left: 23%;
+        bottom: -100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+/* love features ends */
 /* main ends */
